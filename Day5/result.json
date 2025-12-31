@@ -1,0 +1,72 @@
+[
+  {
+    "Year": "2017",
+    "SubjectCounts": {
+      "Toan": 829339,
+      "Van": 809891,
+      "Ly": 395804,
+      "Sinh": 384268,
+      "Ngoai Ngu": 726082,
+      "Hoa": 0,
+      "Lich Su": 0,
+      "Dia Ly": 0,
+      "GDCD": 0
+    }
+  },
+  {
+    "Year": "2018",
+    "SubjectCounts": {
+      "Toan": 741024,
+      "Van": 728309,
+      "Ly": 323353,
+      "Sinh": 319605,
+      "Ngoai Ngu": 659998,
+      "Hoa": 326981,
+      "Lich Su": 446118,
+      "Dia Ly": 433221,
+      "GDCD": 379034
+    }
+  },
+  {
+    "Year": "2019",
+    "SubjectCounts": {
+      "Toan": 807762,
+      "Van": 799208,
+      "Ly": 292166,
+      "Sinh": 291199,
+      "Ngoai Ngu": 728513,
+      "Hoa": 295544,
+      "Lich Su": 542729,
+      "Dia Ly": 535897,
+      "GDCD": 470905
+    }
+  },
+  {
+    "Year": "2020",
+    "SubjectCounts": {
+      "Toan": 866581,
+      "Van": 856565,
+      "Ly": 293287,
+      "Sinh": 290377,
+      "Ngoai Ngu": 772098,
+      "Hoa": 295536,
+      "Lich Su": 568581,
+      "Dia Ly": 555072,
+      "GDCD": 482980
+    }
+  },
+  {
+    "Year": "2021",
+    "SubjectCounts": {
+      "Toan": 915849,
+      "Van": 912960,
+      "Ly": 330353,
+      "Sinh": 326914,
+      "Ngoai Ngu": 812568,
+      "Hoa": 331901,
+      "Lich Su": 587384,
+      "Dia Ly": 581849,
+      "GDCD": 490710
+    }
+  }
+]
