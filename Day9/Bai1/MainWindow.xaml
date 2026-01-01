@@ -1,0 +1,37 @@
+﻿<Window x:Class="Bai1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Quadratic Equation Solver" Height="350" Width="330">
+    <Grid Margin="37,10,37,10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.ColumnSpan="2" Text="Enter coefficients for ax² + bx + c = 0" FontWeight="Bold" Margin="0,0,0,10"/>
+
+        <TextBlock Grid.Row="1" Text="a:" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Name="textBoxA" Margin="5"/>
+        <TextBlock Grid.Row="2" Grid.ColumnSpan="2" Name="exceptionA" Foreground="Red" Margin="5"/>
+
+        <TextBlock Grid.Row="3" Text="b:" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Name="textBoxB" Margin="5"/>
+        <TextBlock Grid.Row="4" Grid.ColumnSpan="2" Name="exceptionB" Foreground="Red" Margin="5"/>
+
+        <TextBlock Grid.Row="5" Text="c:" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="5" Grid.Column="1" Name="textBoxC" Margin="5"/>
+        <TextBlock Grid.Row="6" Grid.ColumnSpan="2" Name="exceptionC" Foreground="Red" Margin="5"/>
+
+        <Button Grid.Row="6" Content="Solve" Width="100" HorizontalAlignment="Center" Margin="0,40,0,-20" Click="SolveButton_Click" Grid.Column="1"/>
+        <TextBlock Grid.Row="6" Name="resultTextBlock" Margin="0,74,0,-74" FontWeight="Bold" Grid.Column="1"/>
+    </Grid>
+</Window>
